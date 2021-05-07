@@ -13,12 +13,9 @@
     
 // }
 
-$(document).ready(function() {
-    $(".image-gallary").hide(300);
+ $(document).ready(function() {
+     $(".image-gallary").hide(300);
 
 
 });
 
-// $(".toggle-button").click(function(){
-//     $(".navbar-links").toggleClass("active");
-// });
