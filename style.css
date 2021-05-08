@@ -334,6 +334,44 @@
    
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.img-responsive img{
+    /* max-width: 100%; */
+    width: 700px;
+}
+
+.text-responsive h1{
+    font-family: lora;
+    font-size: 32px;
+
+}
+
+.text-responsive p {
+    font-size: 24px;
+}
+
+.text-responsive {
+    padding-left: 50px;
+}
+
+.text-responsive button {
+    color: #C9AA8B;
+    background-color: #122227 ;
+    font-family: oswald;
+    
+}
+
+.text-responsive button:hover{
+    color: #DC4625 ;
+
+}
+
 .future{
     margin-top: 100px;
 }
