@@ -360,14 +360,14 @@
     padding-left: 50px;
 }
 
-.text-responsive button {
+.text-responsive button a{
     color: #C9AA8B;
     background-color: #122227 ;
     font-family: oswald;
     
 }
 
-.text-responsive button:hover{
+.text-responsive button a:hover{
     color: #DC4625 ;
 
 }
