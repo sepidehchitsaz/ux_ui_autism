@@ -68,8 +68,8 @@
 .intro p{
     font-family: lora;
     text-align: left;
-     margin-left: 100px;
-    margin-right: 100px; 
+     margin-left: 50px;
+    margin-right: 50px; 
     margin-bottom: 50px;
     font-size: 18px;
     
@@ -239,6 +239,28 @@
 
 }  
 
+.gallary h2{
+    text-align:left;
+    font-family: lora;
+    font-size: 24px;
+    margin-top: 50px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-bottom: 50px;
+
+}
+
+.gallary p{
+    font-family: lora;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+
 .image-gallary{
     width: 60%;
     height: 700px;
@@ -274,7 +296,16 @@
 }
 
 
+.beforeafter h2{
+    text-align:left;
+    font-family: lora;
+    font-size: 24px;
+    margin-top: -100px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-bottom: 50px;
 
+}
 .beforeafter p{
     font-family: lora;
     font-size: 18px;
@@ -291,7 +322,7 @@
     margin-left: 700px;
     background-color: #122227;
     border-radius: 20px 20px;
-    margin-top: -250px;
+    margin-top: -320px;
 }
 
 #before h4{
@@ -319,7 +350,7 @@
     margin-right: 50px;
     background-color: #122227;
     border-radius: 20px 20px;
-    margin-top: -250px;
+    margin-top: -320px;
     
 
 }
@@ -376,12 +407,12 @@
     
 }
 
-.text-responsive button a{
+.text-responsive a button{
     color: #C9AA8B;
     
 }
 
-.text-responsive button a:hover{
+.text-responsive a button:hover{
     color: #DC4625 ;
 
 
