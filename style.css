@@ -391,6 +391,13 @@
 
 }
 
+@media screen and (max-width:600px){
+    .gallary h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}
+
 .gallary p{
     font-family: lora;
     text-align: left;
@@ -399,6 +406,14 @@
     margin-bottom: 100px;
     font-size: 18px;
     margin-top: 50px;
+}
+
+@media screen and (max-width:600px){
+    .gallary p{
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
 }
 
 
@@ -412,12 +427,27 @@
     
 }
 
+@media screen and (max-width:600px) {
+    .image-gallary {
+        width: 80%;
+        height: 550px;
+        border: 10px solid #0C1B1D;
+    }
+}
+
 #big img{
     width: 100%;
     height: 550px;
     border: 2px solid #0C1B1D;
 
 }
+
+@media screen and (max-width:600px) {
+    #big img {
+        height: 450px;
+    }
+}
+
 
 #sub img{
     width: 20%;
@@ -431,10 +461,19 @@
 
 
 
+
+
 .gif{
     margin-top: 100px;
     margin-bottom: 100px;
 
+}
+
+@media screen and (max-width:600px) {
+    .gif {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 }
 
 
@@ -448,6 +487,14 @@
     margin-bottom: 50px;
 
 }
+
+@media screen and (max-width:600px){
+    .beforeafter h2 {
+        font-size: 18px;
+        margin-top: -200px;
+        margin-bottom: 20px;
+    }
+}
 .beforeafter p{
     font-family: lora;
     font-size: 18px;
@@ -459,6 +506,12 @@
     
 }
 
+@media screen and (max-width:600px){
+    .beforeafter p{
+        font-size: 14px;
+    }
+}
+
 .beforeafter button  {
     color: #C9AA8B;
     background-color: #0C1B1D ;
@@ -467,6 +520,12 @@
     margin-top: 50px;
 
     
+}
+
+@media screen and (max-width:600px){
+    .beforeafter button {
+        margin-top: 20px;
+    }
 }
 
 .beforeafter a button{
@@ -488,6 +547,13 @@
     margin-top: -420px;
 }
 
+@media screen and (max-width:600px){
+    #before {
+        margin-left: 70px;
+        margin-top: 50px;
+    }
+}
+
 #before h4{
     font-family: lora;
     font-size: 24px;
@@ -499,12 +565,32 @@
     
 
 }
+
+@media screen and (max-width:600px){
+    #before h4 {
+        font-size: 18px;
+        margin-left: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+
+    }
+}
+
 #before img{
     width: 350px;
     height: 500px;
     margin-bottom: 80px;
     
 
+}
+
+@media screen and (max-width:600px) {
+    #before img {
+        width: 150px;
+        height: 220px;
+        margin-bottom: 30px;
+    }
 }
 
 
@@ -518,6 +604,13 @@
 
 }
 
+@media screen and (max-width:600px) {
+    #after {
+        margin-top: 50px;
+        margin-right: 70px;
+    }
+}
+
 #after h4{
     font-family: lora;
     font-size: 24px;
@@ -528,11 +621,29 @@
     margin-bottom: 20px;
 
 }
+
+@media screen and (max-width:600px){
+    #after h4{
+        font-size: 18px;
+        margin-left: 40px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+
 #after img{
     width: 350px;
     height: 500px;
     margin-bottom: 80px;
    
+}
+@media screen and (max-width:600px){
+    #after img{
+        width: 150px;
+        height: 220px;
+        margin-bottom: 30px;
+
+    }
 }
 
 .container {
@@ -548,14 +659,33 @@
     height: 430px;
 }
 
+@media screen and (max-width:600px) {
+    .img-responsive img {
+        width: 200px;
+        height: 110px;
+    }
+}
+
 .text-responsive h1{
     font-family: lora;
     font-size: 24px;
 
 }
 
+@media screen and (max-width:600px) {
+    .text-responsive h1{
+        font-size: 18px;
+    }
+}
+
 .text-responsive p {
     font-size: 18px;
+}
+
+@media screen and (max-width:600px){
+    .text-responsive p{
+        font-size: 14px;
+    }
 }
 
 .text-responsive {
@@ -585,6 +715,12 @@
     margin-top: 100px;
 }
 
+@media screen and (max-width:600px){
+    .future {
+        margin-top: 50px;
+    }
+}
+
 .future h1{
     text-align:left;
     font-family: lora;
@@ -594,6 +730,12 @@
     margin-bottom: 30px;
 
 
+}
+
+@media screen and (max-width:600px){
+    .future h1 {
+        font-size: 18px;
+    }
 }
 
 
@@ -607,6 +749,13 @@
     
 
 }
+
+@media screen and (max-width:600px){
+    .future p{
+        font-size: 14px;
+    }
+}
+
 
 .card {
     margin-top: 450px;
@@ -648,7 +797,7 @@
 
 @media screen and (max-width:600px) {
     .footer {
-        margin-top: 700px;
+        margin-top: 100px;
         
     }
 }
