@@ -117,7 +117,7 @@
 @media screen and (max-width:600px){
     .main img{
         width: 200px;
-        margin-left: 130px;
+        margin-left: 100px;
         margin-top: 50px;
     }
 }
@@ -190,7 +190,8 @@
 @media screen and (max-width:600px) {
     .grid-item-1 img {
         width: 150px;
-        margin-left: 70px;
+        margin-left: 40px;
+        margin-top: 0px;
     }
 }
 
@@ -224,6 +225,7 @@
     .grid-item-2 img{
         width: 150px;
         height: 100px;
+        margin-top: 0px;
     }
 }
 
@@ -239,6 +241,7 @@
     .grid-item-2 h2 {
         font-size: 14px;
         margin-top: 50px;
+        margin-left: 35px;
     }
 }
    
@@ -256,8 +259,9 @@
 @media screen and (max-width:600px){
     .grid-item-3 img{
         width: 150px;
-        margin-left: 70px;
+        margin-left: 40px;
         height: 100px;
+        margin-top: 0px;
     }
 }
 
@@ -273,7 +277,7 @@
 
 @media screen and (max-width:600px){
     .grid-item-3 h2{
-        margin-left: 70px;
+        margin-left: 40px;
         font-size: 14px;
         margin-top: 10px;
         
@@ -291,6 +295,8 @@
     .grid-item-4 img {
         width: 150px;
         height: 100px;
+        margin-top: 0px;
+        
     }
 }
 
@@ -306,6 +312,7 @@
     .grid-item-4 h2 {
         font-size: 14px;
         margin-top: 10px;
+        margin-left: 30px;
     }
 }
 
@@ -321,7 +328,8 @@
 @media screen and (max-width:600px){
     .grid-item-5 img {
         width: 150px;
-        margin-left: 70px;
+        margin-left: 40px;
+        margin-top: 0px;
         
     }
 }
@@ -339,7 +347,7 @@
     .grid-item-5 h2 {
         margin-left: 70px;
         font-size: 14px;
-        margin-top: 10px;
+        margin-top: 15px;
     }
 }
 
@@ -354,6 +362,7 @@
     .grid-item-6 img {
         width: 150px;
         margin-bottom: 50px;
+        height: 105px;
 
     }
 }
@@ -369,6 +378,8 @@
 @media screen and (max-width:600px){
     .grid-item-6 h2 {
         font-size: 14px;
+        margin-left: 30px;
+        margin-top: 15px;
 
     }
 }
@@ -434,7 +445,7 @@
 @media screen and (max-width:600px) {
     .image-gallary {
         width: 80%;
-        height: 550px;
+        height: 500px;
         border: 10px solid #0C1B1D;
     }
 }
@@ -448,7 +459,7 @@
 
 @media screen and (max-width:600px) {
     #big img {
-        height: 450px;
+        height: 400px;
     }
 }
 
@@ -553,7 +564,7 @@
 
 @media screen and (max-width:600px){
     #before {
-        margin-left: 70px;
+        margin-left: 50px;
         margin-top: 50px;
     }
 }
@@ -611,7 +622,7 @@
 @media screen and (max-width:600px) {
     #after {
         margin-top: 50px;
-        margin-right: 70px;
+        margin-right: 90px;
     }
 }
 
@@ -665,8 +676,8 @@
 
 @media screen and (max-width:600px) {
     .img-responsive img {
-        width: 200px;
-        height: 110px;
+        width: 150px;
+        height: 90px;
     }
 }
 
@@ -676,7 +687,7 @@
 
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:600px){
     .text-responsive h1{
         font-size: 18px;
     }
@@ -694,6 +705,12 @@
 
 .text-responsive {
     padding-left: 50px;
+}
+
+@media screen and (max-width:600px){
+    .text-responsive{
+        padding-left: 20px;
+    }
 }
 
 .text-responsive button  {
