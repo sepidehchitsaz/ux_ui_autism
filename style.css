@@ -189,8 +189,8 @@
 
 @media screen and (max-width:600px) {
     .grid-item-1 img {
-        width: 200px;
-        margin-left: 50px;
+        width: 150px;
+        margin-left: 70px;
     }
 }
 
@@ -206,8 +206,8 @@
 
 @media screen and (max-width:600px) {
     .grid-item-1 h2 {
-        margin-left: 50px;
-        font-size: 18px;
+        margin-left: 70px;
+        font-size: 14px;
         margin-top: 50px;
     }
 }
@@ -222,7 +222,7 @@
 
 @media screen and (max-width:600px){
     .grid-item-2 img{
-        width: 200px;
+        width: 150px;
         height: 100px;
     }
 }
@@ -237,7 +237,7 @@
 
 @media screen and (max-width:600px) {
     .grid-item-2 h2 {
-        font-size: 18px;
+        font-size: 14px;
         margin-top: 50px;
     }
 }
@@ -255,9 +255,9 @@
 
 @media screen and (max-width:600px){
     .grid-item-3 img{
-        width: 200px;
-        margin-left: 50px;
-        height: 120px;
+        width: 150px;
+        margin-left: 70px;
+        height: 100px;
     }
 }
 
@@ -273,8 +273,9 @@
 
 @media screen and (max-width:600px){
     .grid-item-3 h2{
-        margin-left: 50px;
-        font-size: 18px;
+        margin-left: 70px;
+        font-size: 14px;
+        margin-top: 10px;
         
     }
 }
@@ -288,7 +289,8 @@
 
 @media screen and (max-width:600px) {
     .grid-item-4 img {
-        width: 200px;
+        width: 150px;
+        height: 100px;
     }
 }
 
@@ -301,9 +303,9 @@
 }
 
 @media screen and (max-width:600px) {
-    .gird-item-4 h2 {
-        font-size: 18px;
-        margin-top: -40px;
+    .grid-item-4 h2 {
+        font-size: 14px;
+        margin-top: 10px;
     }
 }
 
@@ -318,8 +320,9 @@
 
 @media screen and (max-width:600px){
     .grid-item-5 img {
-        width: 200px;
-        margin-left: 50px;
+        width: 150px;
+        margin-left: 70px;
+        
     }
 }
 
@@ -334,8 +337,9 @@
 }
 @media screen and (max-width:600px){
     .grid-item-5 h2 {
-        margin-left: 50px;
-        font-size: 18px;
+        margin-left: 70px;
+        font-size: 14px;
+        margin-top: 10px;
     }
 }
 
@@ -348,7 +352,7 @@
 
 @media screen and (max-width:600px) {
     .grid-item-6 img {
-        width: 200px;
+        width: 150px;
         margin-bottom: 50px;
 
     }
@@ -364,7 +368,7 @@
 
 @media screen and (max-width:600px){
     .grid-item-6 h2 {
-        font-size: 18px;
+        font-size: 14px;
 
     }
 }
