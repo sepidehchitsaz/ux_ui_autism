@@ -822,7 +822,7 @@
     background-color: #0C1B1D;
 }
 
-.footer {
+/* .footer {
     font-size: 18px;
     font-family: oswald;
     margin-top: 100px;
@@ -836,11 +836,11 @@
         margin-top: 50px;
         
     }
-}
+} */
 
 
 
-.email {
+/* .email {
     height: 60px;
     width: 45px;
     margin: 5px;
@@ -857,9 +857,9 @@
       margin-left: 150px;
         
     }
-}
+} */
 
-.facebook {
+/* .facebook {
     height: 45px;
     margin: 5px;
     position: relative;
@@ -874,17 +874,17 @@
      
         
     }
-}
+} */
 
-.linkedin {
+/* .linkedin {
     height: 45px;
     margin: 5px;
     position: relative;
     /* bottom: 100px; */
     float: left;
     bottom: -78px;
-}
-
+} */
+/* 
 @media screen and (max-width:600px) {
     .linkedin {
         
@@ -910,10 +910,10 @@
         
 
     }
-}
+} */
 
 
-
+/* 
 h6 {
     font-family: oswald;
     font-size: 18px;
@@ -935,9 +935,30 @@ h6 {
         
     
     }
+} */
+
+
+footer {
+    color: #C9AA8B;
+    background-color: #0C1B1D;
+
+    .container {
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    ul{
+        margin-bottom: 32px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    li{
+        padding: 0 15px;
+        margin-bottom: 16px;
+    }
+ 
 }
-
-
-
 
 
