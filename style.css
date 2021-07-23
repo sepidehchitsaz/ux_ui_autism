@@ -575,7 +575,7 @@
 
 @media screen and (max-width:600px){
     #before {
-        margin-left: 15px;
+        margin-left: 40px;
         margin-top: 50px;
     }
 }
@@ -634,6 +634,7 @@
     #after {
         margin-top: 50px;
         margin-right: 150px;
+        margin-bottom: 50px;
     }
 }
 
@@ -678,6 +679,8 @@
     justify-content: center;
     margin-top: 400px;
 }
+
+
 
 .img-responsive img{
     /* max-width: 100%; */
